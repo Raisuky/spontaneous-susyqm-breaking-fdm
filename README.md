@@ -21,6 +21,6 @@ The theoretical constrains dictate that when $\lambda$ crosses the threshold $\l
 ## How to run the simulation
 To reproduce the numerical results and generate the bifurcation and potential geometry plots do:
 ```bash
-git clone [https://github.com/Raisuky/spontaneous-susy-breaking-fdm.git](https://github.com/Raisuky/spontaneous-susy-breaking-fdm.git)
-cd spontaneous-susy-breaking-fdm
+git clone [https://github.com/Raisuky/spontaneous-susyqm-breaking-fdm.git](https://github.com/Raisuky/spontaneous-susy-breaking-fdm.git)
+cd spontaneous-susyqm-breaking-fdm
 python susy_solver.py

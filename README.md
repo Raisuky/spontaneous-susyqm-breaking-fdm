@@ -18,6 +18,9 @@ The theoretical constrains dictate that when $\lambda$ crosses the threshold $\l
 1. **Critial Treshold:** The numerical rupture occurs at the theoretical threshold $\lambda = A = 2.0$. The slight divergence prior to this value is caused by the finite-size effect, causde by the wavefunction's tail colliding with the Dirichlet walls of the grid.
 2. **Asymptotic Degeneracy:** Under a strong perturbation $\lambda \gg A$, the potencials $V_{1,2}$ become spatially identical within the confined region, leading to mathematical degenerate states of energy despite the broken symmetry.
 
+### Validation
+The simulation was validated by setting the asymmetry parameter to zero ($\lambda = 0$), this way using the standard symmetric Pöschl-Teller potential. The numerical ground state energy obtained was $E_0 \approx -1.0000e-04$, consistent with the theoretical value of exactly zero, confirming the accuracy of the finite difference discretization.
+
 ## How to run the simulation
 To reproduce the numerical results and generate the bifurcation and potential geometry plots do:
 ```bash
